@@ -10,10 +10,10 @@ will always be greater than the value of child node, and the value at the root m
 among all the values. Specifically, you need to use array representation of binary heap in your
 implementation with the following properties:
 
-The root element will be at Arr[0]
-Arr[(i-1)/2] Returns the parent node
-Arr[(2*i)+1] Returns the left child node
-Arr[(2*i)+2] Returns the right child node
+-The root element will be at Arr[0]
+-Arr[(i-1)/2] Returns the parent node
+-Arr[(2*i)+1] Returns the left child node
+-Arr[(2*i)+2] Returns the right child node
 
 You only need to implement the queue function, which inserts a new element into the queue (no
 need for dequeue etc. operations).
@@ -27,12 +27,12 @@ Additionally, in your C code, you will implement a convert function, which conve
 representation into a data structure represented by pointers and links between the elements. Each
 element is to be represented by the following structure:
 
-struct node
-{
-int data;
-struct node* left;
-struct node* right;
-};
+-struct node
+-{
+-int data;
+-struct node* left;
+-struct node* right;
+-};
 
 Your program flow should be as follows:
 1) Read a set of unordered integer values (separated by space) from a text file into an array.
