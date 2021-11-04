@@ -36,7 +36,6 @@ struct node* right;
 
 Your program flow should be as follows:
 1) Read a set of unordered integer values (separated by space) from a text file into an array.
-2) 
 Example: A= [45 20 14 12 31 7 11 13]
 
 2) Build the priority queue in an array by processing the integer values one by one. Add each
